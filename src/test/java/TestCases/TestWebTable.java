@@ -19,7 +19,7 @@ public class TestWebTable {
 		
 		driver.get("https://money.rediff.com/gainers");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		//find the total no of rows
 		List<WebElement> rowsTotal = driver.findElements(By.xpath("//table[@class='dataTable']/tbody/tr"));
