@@ -33,6 +33,8 @@ public class RightClickingElement {
 		action.moveToElement(installationMenu).perform();
 		
 		driver.findElement(By.xpath("//*[@id=\"dm2m3i1tdT\"]")).click();
+		
+		driver.quit();
 
 	}
 
