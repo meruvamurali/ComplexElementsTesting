@@ -23,7 +23,7 @@ public class JavaScriptExecutorExample {
 	public static void captureScreenshot() throws IOException {
 		
 		Date d = new Date();
-		String fileName = d.toString().replace(":", "_").replace(" ", "_")+ ".jpg";
+		String fileName = "JavaScriptExecutor_" + d.toString().replace(":", "_").replace(" ", "_")+ ".jpg";
 			
 		System.out.println(fileName);
 			
